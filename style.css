@@ -1,0 +1,66 @@
+:root {
+    --color-black: #241F20;
+    --color-red: #FF0000;
+    --color-grey: #F1F2F4;
+  }
+  
+
+  *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body {
+      font-family: Roboto, sans-serif;
+      background: var(--color-grey) url(/catalog_task/assets/model\ picture.png) no-repeat left center / cover;
+      height: 100vh;
+  }
+  
+  .container { 
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 10rem;
+    padding-left: 60rem;
+    padding-top: 5rem;
+  }
+
+  .header-text {
+    font-size: 5rem;
+    line-height: 89.023%;
+    padding-bottom: 10%;
+  }
+
+  .name-wig {
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 0.10rem;
+  }
+
+  .text-arrow {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+  }
+
+  .sale-section {
+    font-size: 3rem;
+    line-height: 94.688%;
+  }
+
+  .smaller {
+    font-size: 2rem;
+  }
+
+  .price-before {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .arrow {
+    width: 2em;
+    height: 3rem;
+  } 
